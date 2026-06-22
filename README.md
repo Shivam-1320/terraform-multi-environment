@@ -1,4 +1,24 @@
-# Terraform Multi-Environment Infrastructure
+<img src="https://avatars.githubusercontent.com/u/101424800?v=4" width="80" align="left" />
+
+**Terraform Multi-Environment Infrastructure**
+
+![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
+![Environment](https://img.shields.io/badge/Environment-Dev%20%7C%20Stage%20%7C%20Prod-success)
+![Remote State](https://img.shields.io/badge/State-Remote-blue)
+![S3 Backend](https://img.shields.io/badge/Backend-S3-569A31?logo=amazons3&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/Locking-DynamoDB-4053D6?logo=amazondynamodb&logoColor=white)
+![EC2](https://img.shields.io/badge/Compute-EC2-FF9900?logo=amazonaws&logoColor=white)
+![VPC](https://img.shields.io/badge/Networking-VPC-orange)
+![Modules](https://img.shields.io/badge/Terraform-Modules-purple)
+![Makefile](https://img.shields.io/badge/Automation-Makefile-brightgreen)
+![GitHub](https://img.shields.io/badge/GitHub-shivam--1320-blue?logo=github)
+
+#
+
+> **Author:**  Pankaj Baghel
+
+> **GitHub:**  shivam-1320
 
 A Terraform project demonstrating infrastructure provisioning across multiple environments using reusable modules, remote state management, and environment separation.
 
@@ -195,6 +215,28 @@ terraform apply
 ```
 
 ---
+
+
+## Makefile
+
+The project includes a Makefile to simplify Terraform operations across environments.
+
+### Examples
+
+```bash
+make init ENV=dev
+make plan ENV=dev
+make apply ENV=dev
+make destroy ENV=dev
+```
+
+Replace `dev` with `stage` or `prod` as needed.
+
+### Benefits
+
+* Run Terraform commands from the project root
+* Consistent workflow across environments
+* Simplifies day-to-day infrastructure management
 
 ## Modules
 
