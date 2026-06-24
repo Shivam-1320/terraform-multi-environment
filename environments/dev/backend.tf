@@ -2,9 +2,9 @@ terraform {
   required_version = ">= 1.0.0"
 
   backend "s3" {
-    bucket         = "pankaj-global-terraform-state-bucket"
-    key            = "environments/dev/terraform.tfstate"
-    region         = "ap-south-1"
+    bucket       = "pankaj-global-terraform-state-bucket"
+    key          = "environments/dev/terraform.tfstate"
+    region       = "ap-south-1"
     use_lockfile = true
   }
 
