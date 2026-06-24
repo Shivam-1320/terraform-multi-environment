@@ -22,6 +22,13 @@
 
 ---
 
+##  Architecture Diagram
+
+
+![Architecture Diagram](Architecture/diagram-export-22-06-2026-17_12_43.png)
+
+---
+
 A Terraform project demonstrating infrastructure provisioning across multiple environments using reusable modules, remote state management, and environment separation.
 
 This project was built to practice real-world Terraform concepts such as:
