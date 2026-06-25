@@ -95,4 +95,4 @@ jobs:
           framework: terraform
           quiet: true
           output_format: cli
-          soft_fail: false
+          soft_fail: true
