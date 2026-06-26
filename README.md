@@ -325,12 +325,29 @@ Sensitive files should always be excluded using `.gitignore`.
 
 ---
 
-❤️ Contributors
+## ❤️ Contributors
 
 This project is made better through community contributions. Every merged pull request helps improve the project and is greatly appreciated.
 
-Contributor	Contribution
-@jasonp2323	Added a comprehensive Terraform CI workflow, including terraform fmt, terraform validate, TFLint, and Checkov integration with GitHub Actions. Also improved code formatting and helped establish the project's first automated quality and security pipeline. ⭐ First community contributor!
+<table>
+<tr>
+<td align="center">
+<a href="https://github.com/jasonp2323">
+<img src="https://github.com/jasonp2323.png" width="100px;" alt="jasonp2323"/><br>
+<b>Jason P.</b>
+</a><br>
+<sub>🥇 First Community Contributor</sub>
+</td>
+</tr>
+</table>
+
+**Contribution Highlights**
+
+- Added a comprehensive **Terraform CI** workflow with GitHub Actions.
+- Integrated **terraform fmt**, **terraform validate**, **TFLint**, and **Checkov** into the CI pipeline.
+- Improved Terraform code formatting to support automated validation.
+- Helped establish the project's first automated quality and security pipeline.
+- ⭐ Recognized as the project's **First Community Contributor**.
 
 ---
 
