@@ -42,13 +42,13 @@ resource "aws_route_table" "public_rt" {
     gateway_id = aws_internet_gateway.gw.id
 
   }
-   
-    tags = {
 
-      Name        = "${var.environment}-public-rt"
-      Environment = var.environment
-    }
-  
+  tags = {
+
+    Name        = "${var.environment}-public-rt"
+    Environment = var.environment
+  }
+
 }
 
 resource "aws_route_table_association" "public_assoc" {
@@ -67,13 +67,13 @@ resource "aws_security_group" "allow_ssh" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"] 
+    cidr_blocks = ["0.0.0.0/0"]
   }
 
   egress {
     from_port   = 0
     to_port     = 0
-    protocol    = "-1" 
+    protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
   }
 
