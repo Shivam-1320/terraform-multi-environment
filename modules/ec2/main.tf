@@ -1,3 +1,15 @@
+terraform {
+  required_version = ">= 1.6.0"
+
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 6.0"
+    }
+  }
+}
+
+
 # Thsi Automatically fatch the latest ubuntu 22.04 ami id 
 
 data "aws_ami" "ubuntu" {
